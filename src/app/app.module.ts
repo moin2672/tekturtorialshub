@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { MovieAppComponent } from './movie-app/movie-app.component';
 import { PipeTutrlComponent } from './pipe-tutrl/pipe-tutrl.component';
+import { TempConverterPipe } from './temp-converter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerListComponent,
     MovieAppComponent,
-    PipeTutrlComponent
+    PipeTutrlComponent,
+    TempConverterPipe
   ],
   imports: [
     BrowserModule,

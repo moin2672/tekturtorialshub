@@ -14,6 +14,9 @@ export class PipeTutrlComponent implements OnInit {
   cur: number= 175;
   constructor() { }
 
+  celcius: number;
+    Fahrenheit: number;
+
   ngOnInit() {
   }
 
