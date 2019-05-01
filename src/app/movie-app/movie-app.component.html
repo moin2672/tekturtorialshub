@@ -70,3 +70,6 @@ Input string : <input type='text' [(ngModel)] ="num"/>
      
      <p [ngStyle]="{'font-size': '30px'}">Set Font size to 30px</p>
      <p [ngStyle]="{'font-size.em': '8'}">Set Font size to 8 em</p>
+
+     <input [(ngModel)]="color" /> 
+<div [ngStyle]="{'color': color}">Change my color</div>
