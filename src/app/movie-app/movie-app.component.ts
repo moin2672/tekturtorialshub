@@ -36,6 +36,7 @@ export class MovieAppComponent implements OnInit {
     return item.title + item.director ;
 }
 
+num: number=0;
 
 }
 class Movie {
