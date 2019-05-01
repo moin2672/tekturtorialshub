@@ -12,4 +12,12 @@ export class Child2Component implements OnInit {
   ngOnInit() {
   }
 
+  count = 0;
+ 
+     increment() {
+        this.count++;
+      }
+    decrement() {
+        this.count--;
+    }
 }
