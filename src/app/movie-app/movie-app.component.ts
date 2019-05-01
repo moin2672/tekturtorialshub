@@ -45,6 +45,9 @@ showMe: boolean;
 //cssStringVar: string= 'red size20';
 //cssArray:string[]=['red','size20']; 
 cssClass: CssClass= new CssClass();
+
+status: string ="error";
+
 }
 
 class CssClass {

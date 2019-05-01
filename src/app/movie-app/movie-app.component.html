@@ -73,3 +73,5 @@ Input string : <input type='text' [(ngModel)] ="num"/>
 
      <input [(ngModel)]="color" /> 
 <div [ngStyle]="{'color': color}">Change my color</div>
+
+<div [ngStyle]="{'background-color':status === 'error' ? 'red' : 'blue' }">color based on condition</div>
