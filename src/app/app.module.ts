@@ -8,6 +8,8 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
 import { MovieAppComponent } from './movie-app/movie-app.component';
 import { PipeTutrlComponent } from './pipe-tutrl/pipe-tutrl.component';
 import { TempConverterPipe } from './temp-converter.pipe';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TempConverterPipe } from './temp-converter.pipe';
     CustomerListComponent,
     MovieAppComponent,
     PipeTutrlComponent,
-    TempConverterPipe
+    TempConverterPipe,
+    ChildComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule,

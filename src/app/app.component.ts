@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ChildComponent} from './child/child.component';
 
 @Component({
   selector: 'app-root',
@@ -18,4 +19,15 @@ export class AppComponent {
     this.count=this.count+1;
     console.log("Button Clicked");
   }
+
+
+  Counter = 5;
+ 
+  increment() {
+    this.Counter++;
+  }
+  decrement() {
+    this.Counter--;
+  }
+
 }
