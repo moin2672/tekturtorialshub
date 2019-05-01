@@ -81,3 +81,6 @@ Input string : <input type='text' [(ngModel)] ="num"/>
                'font-weight': 'bold'}">
      Multiple styles
 </p>
+
+<input [(ngModel)]="size" /> 
+<div [ngStyle]="{'font-size.px': size}">Change my size</div>
