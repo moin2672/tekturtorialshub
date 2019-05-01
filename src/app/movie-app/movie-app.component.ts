@@ -43,9 +43,15 @@ items: item[] = [{name: 'One', val: 1}, {name: 'Two', val: 2}, {name: 'Three', v
 
 showMe: boolean;
 //cssStringVar: string= 'red size20';
-cssArray:string[]=['red','size20']; 
-
+//cssArray:string[]=['red','size20']; 
+cssClass: CssClass= new CssClass();
 }
+
+class CssClass {
+  red: boolean= true;
+  size20: boolean= true; 
+}
+
 class item {
       name: string;
       val: number;
