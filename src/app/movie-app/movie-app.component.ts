@@ -15,7 +15,7 @@ export class MovieAppComponent implements OnInit {
         {title:'Batman v Superman: Dawn of Justice',director:'Zack Snyder',cast:'Ben Affleck, Henry Cavill, Amy Adams',releaseDate:'March 25, 2016'},
         {title:'Captain American: Civil War',director:'Anthony Russo, Joe Russo',cast:'Scarlett Johansson, Elizabeth Olsen, Chris Evans',releaseDate:'May 6, 2016'},
         {title:'X-Men: Apocalypse',director:'Bryan Singer',cast:'Jennifer Lawrence, Olivia Munn, Oscar Isaac',releaseDate:'May 27, 2016'},
-        {title:'',director:'Duncan Jones',cast:'Travis Fimmel, Robert Kazinsky, Ben Foster',releaseDate:'June 10, 2016'},
+        {title:'Warcraft',director:'Duncan Jones',cast:'Travis Fimmel, Robert Kazinsky, Ben Foster',releaseDate:'June 10, 2016'},
         {title:'Avengers: Age of Ultron',director:'Joss Whedon',cast:'Robert Downey Jr., Chris Evans, Mark Ruffalo',releaseDate:'May 1, 2015'},
         {title:'Star Wars: The Force Awakens',director:'Colin Trevorrow',cast:'Chris Pratt, Bryce Dallas Howard, Jake M. Johnson',releaseDate:'Dec 12, 2015'},
         {title:'The Hunger Games: Mockingjay - Part 2',director:'Francis Lawrence',cast:'Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth',releaseDate:'November 20, 2015'},
