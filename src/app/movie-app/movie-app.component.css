@@ -1,2 +1,4 @@
 .first { background-color: blue; }
 .last { background-color: aqua; }
+.even { background-color: red; }
+.odd { background-color: green; }
