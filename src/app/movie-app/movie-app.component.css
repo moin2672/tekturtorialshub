@@ -2,3 +2,6 @@
 .last { background-color: aqua; }
 .even { background-color: red; }
 .odd { background-color: green; }
+
+.red { color: red; }
+.size20 { font-size: 20px; }
