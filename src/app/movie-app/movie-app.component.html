@@ -47,3 +47,17 @@ Input string : <input type='text' [(ngModel)] ="num"/>
         <div *ngSwitchCase="'Two'">Two is Selected</div>
         <div *ngSwitchDefault>Default Option</div>
     </div>
+
+
+    <div class="row">
+        Show <input type="checkbox" [(ngModel)] ="showMe"/>
+    </div>
+    
+    <div class='row'>
+        <div *ngIf="showMe">
+            ShowMe is checked
+        </div>
+        <div *ngIf="!showMe">
+            ShowMe is unchecked
+        </div>
+    </div>

@@ -41,6 +41,7 @@ num: number=0;
 items: item[] = [{name: 'One', val: 1}, {name: 'Two', val: 2}, {name: 'Three', val: 3}];
     selectedValue: string= 'One';
 
+showMe: boolean;
 
 }
 class item {
