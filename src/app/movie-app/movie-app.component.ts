@@ -38,7 +38,17 @@ export class MovieAppComponent implements OnInit {
 
 num: number=0;
 
+items: item[] = [{name: 'One', val: 1}, {name: 'Two', val: 2}, {name: 'Three', val: 3}];
+    selectedValue: string= 'One';
+
+
 }
+class item {
+      name: string;
+      val: number;
+  }
+  
+  
 class Movie {
   title : string;
   director : string;
