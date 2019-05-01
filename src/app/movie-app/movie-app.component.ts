@@ -47,7 +47,13 @@ showMe: boolean;
 cssClass: CssClass= new CssClass();
 
 status: string ="error";
+StyleClass: StyleClass =new StyleClass();
+}
 
+class StyleClass {
+  'color': string= 'blue';
+  'font-size.px': number= 20;
+  'font-weight': string= 'bold'; 
 }
 
 class CssClass {
