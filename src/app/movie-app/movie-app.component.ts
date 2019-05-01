@@ -42,6 +42,7 @@ items: item[] = [{name: 'One', val: 1}, {name: 'Two', val: 2}, {name: 'Three', v
     selectedValue: string= 'One';
 
 showMe: boolean;
+cssStringVar: string= 'red size20';
 
 }
 class item {
