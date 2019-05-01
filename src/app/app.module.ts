@@ -19,6 +19,8 @@ import { Child3Component } from './child3/child3.component';
 import { LchildComponent } from './lchild/lchild.component';
 import { Lchild1Component } from './lchild1/lchild1.component';
 import { Lparent1Component } from './lparent1/lparent1.component';
+import { Lparent2Component } from './lparent2/lparent2.component';
+import { Lchild2Component } from './lchild2/lchild2.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { Lparent1Component } from './lparent1/lparent1.component';
     Child3Component,
     LchildComponent,
     Lchild1Component,
-    Lparent1Component
+    Lparent1Component,
+    Lparent2Component,
+    Lchild2Component
   ],
   imports: [
     BrowserModule,
